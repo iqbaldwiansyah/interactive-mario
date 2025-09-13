@@ -8,7 +8,8 @@ function showPopup(duration, price) {
     const popupOverlay = document.getElementById("popupOverlay");
     const popupText = document.getElementById("popupText");
 
-    popupText.textContent = `Yakin kamu memilih durasi ${duration} dengan harga ${price}?`;
+    popupText.textContent = `Yakin kamu memilih durasi ${duration} dengan harga ${price}?\n
+    Apabila sudah selesai pembayaran , Silahkan hubungi Tiktok/Discord Iqbal Dwiansyah`;
     popupOverlay.style.display = "flex";
 
     // Tombol Ya, saya setuju → hanya buka Sociabuzz di tab baru
